@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+
 <html>
     <head>
         <title>Image Viewer</title>
@@ -10,14 +11,17 @@
             href="styles.css"
         />
     </head>
+
     <body>
         <script src="main.js"></script>
         <article class="image-viewer__container">
+
             <div class="image-viewer__title">
                 TAIME Happy Children's Day &#128118
             </div>   
 
             <div class="image-viewer__display">
+
                 <img
                     class="image-view__image"
                     width="1000"
@@ -26,9 +30,10 @@
                     src="C:\Users\a-janiecewu\OneDrive - Microsoft\Documents\photo_draw\images\sonia.jpg"
                     onclick="showInfo(this)"
                 />
+
                 <div class="image-viewer__display-info-wrapper" id='info' style="display: none;">
-                    <div id="name"></div>
-                    <div  id="thing"></div>
+                    <div class="name" id="name"></div>
+                    <div class="thing" id="thing"></div>
                 </div>                  
             </div>
 

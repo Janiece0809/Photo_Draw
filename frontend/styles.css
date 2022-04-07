@@ -15,16 +15,19 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	font-family: 'Segoe Script';
 }
 
 .image-viewer__title {
     position: fixed;
+	/*position: static;*/
     top: 0;
-	font-size: 5rem;
-	font-weight: 600;
+	font-size: 4rem;
+	font-weight: 400;
 	color: #615dec;
-	margin-top: 6rem;
+	margin-top: 1.5rem;
     align-items: center;
+	font-weight: 600;
 }
 
 .image-viewer__main {
@@ -34,21 +37,24 @@ body {
 }
 
 .image-viewer__button {
-    position: fixed;
-    bottom: 10pt;
-    left: 40;
-    right: 40;
-    font-size: 2rem;
+	position: fixed;
+	bottom: 10pt;
+/*	left: 40;
+	right: 40;*/
+	font-size: 2rem;
 	display: inline;
-	background: none;
-	border: 50pt;
+	/*background: ;*/
+	background-color: lavender;
+	border: 100pt;
 	border-radius: 10%;
-    margin-bottom: 6rem;
+	margin-bottom: 3rem;
+	font-weight: 300;
 }
 
 .image-viewer__button:hover {
     color: #615dec;
     border-color: #615dec;
+	border: 2px;
 }
 
 .image-viewer__button img:hover {
@@ -67,13 +73,20 @@ body {
 	font-size: 0.6rem;
 }
 
+.image-viewer__display img {
+	max-height: 70%;
+	max-width: 60%;
+	align-items: center;
+	margin-top: 30px;
+}
+
 .image-viewer__display-info-wrapper {
 	position: absolute;
-	font-size: 50px;
-	min-width: 4px;
+	max-width: 30%;
     color: black;
-    right: 300px;
-    top: 450px;
+    right: 100px;
+    top: 230px;
+	margin-bottom: 10rem;
 }
 
 #display-image {
@@ -98,11 +111,12 @@ body {
 	cursor: not-allowed;
 }
 
-.info-name {
-	outline: none;
+div.name {
+	/*outline: none;*/
+	font-size: 50px;
 }
 
-.info-thing {
-	outline: none;
+div.thing {
+	/*outline: none;*/
     font-size: 20px;
 }
