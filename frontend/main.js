@@ -2,10 +2,14 @@
 var images = [
             "C:\Users\a-janiecewu\OneDrive - Microsoft\Documents\photo_draw\images\Isaac.jpg",
             "C:\Users\a-janiecewu\OneDrive - Microsoft\Documents\photo_draw\images\sonia.jpg",
-            "C:\Users\a-janiecewu\OneDrive - Microsoft\Documents\photo_draw\images\ teddy.jpg",
-            "/images/teddy.jpg",
-            "https://i2-prod.mirror.co.uk/incoming/article6331055.ece/ALTERNATES/s615/PAY-dog.jpg",
-            "https://static.standard.co.uk/s3fs-public/thumbnails/image/2018/11/20/14/samson-instagramdogs-11-20-18.jpg?width=640"
+            "C:\Users\a-janiecewu\OneDrive - Microsoft\Documents\photo_draw\images\teddy.jpg",
+            "C:\Users\a-janiecewu\OneDrive - Microsoft\Documents\photo_draw\images\Eileen.jpeg",
+            "C:\Users\a-janiecewu\OneDrive - Microsoft\Documents\photo_draw\images\Julie.jpg",
+            "C:\Users\a-janiecewu\OneDrive - Microsoft\Documents\photo_draw\images\peggy.jpg",
+            "C:\Users\a-janiecewu\OneDrive - Microsoft\Documents\photo_draw\images\Sasha.jpg",
+            "C:\Users\a-janiecewu\OneDrive - Microsoft\Documents\photo_draw\images\Harris.png",
+            "C:\Users\a-janiecewu\OneDrive - Microsoft\Documents\photo_draw\images\Jelie.jpeg",
+            "C:\Users\a-janiecewu\OneDrive - Microsoft\Documents\photo_draw\images\Tracy.jpeg"
             ]; 
 var names = [
             "dog1",
