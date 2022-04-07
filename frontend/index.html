@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>Image Viewer</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="styles.css"
+        />
+    </head>
+    <body>
+        <script src="main.js"></script>
+        <article class="image-viewer__container">
+            <div class="image-viewer__title">
+                TAIME Happy Children's Day &#128118
+            </div>   
+
+            <div class="image-viewer__display">
+                <img
+                    class="image-view__image"
+                    width="1000"
+                    height="4000"
+                    id="display-image"
+                    src="/Users/janiecewu/Documents/Microsoft /photo_iter/images/cat.jpeg"
+                    onclick="showInfo(this)"
+                />
+                <div class="image-viewer__display-info-wrapper" id='info' style="display: none;">
+                    <div id="name"></div>
+                    <div  id="thing"></div>
+                </div>                  
+            </div>
+
+            <input type="button" value="START" id="start" class="image-viewer__button" onclick="startDraw(this)"/>                
+        </article>
+    </body>
+</html>
