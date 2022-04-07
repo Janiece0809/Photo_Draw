@@ -38,6 +38,18 @@ var things = [
             "每天從幼稚園下課後都要吃魚麵線，但沒有比較聰明"
             ];
 
+var times_dict = {
+    1: 0,
+    2: 0,
+    3: 0,
+    4: 0,
+    5: 0,
+    6: 0,
+    7: 0,
+    8: 0,
+    9: 0,
+    10: 0
+};
 
 var index = 1;
 
@@ -45,17 +57,18 @@ function doSetTimeout(i) {
     index = 1;
     setTimeout(function () {
         console.log(index)
+        document.getElementById('display-image').src = images[index-1];
         if (index < images.length){
-            document.getElementById('display-image').src = images[index]; 
             index++;
         }
         else {
             index = 1;}
-    }, 200*i);
+    }, 100*i);
   }
 
 function startDraw() {
-    random_num = Math.floor(Math.random() * 15) + 25;
+    random_num = Math.floor(Math.random() * 30) + 15;
+    //random_num = 21
     console.log(random_num)
     for (var i = 1; i <= random_num; i++) {
         doSetTimeout(i)
@@ -64,11 +77,20 @@ function startDraw() {
 
 function showInfo() {
     console.log(index)
+    times_dict[index] += 0.5;
+    //console.log(times_dict[index]);
     // 圖片換位置
     // document.getElementById('display-image').style.right=10000 + "px";  
     // show/hide info
-    document.getElementById('name').textContent = names[index-1];  
-    document.getElementById('thing').textContent = things[index-1]; 
+    if (index == 1) {
+        document.getElementById('name').textContent = names[9];
+        document.getElementById('thing').textContent = things[9];
+    }
+    else {
+        document.getElementById('name').textContent = names[index - 2];
+        document.getElementById('thing').textContent = things[index - 2];
+    }
+    
 
     var info = document.getElementById('info');
     if (info.style.display === "none") {
