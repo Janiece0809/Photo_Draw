@@ -1,8 +1,9 @@
 
 var images = [
-            "https://www.loveyourdog.com/wp-content/uploads/2019/04/Toy-Poodle-900x500.jpg",
-            "https://thehappypuppysite.com/wp-content/uploads/2018/01/Toy-Poodle-HP-long.jpg",
-            "https://emborapets.com/wp-content/uploads/2019/05/120860870_m-1.jpg",
+            "C:\Users\a-janiecewu\OneDrive - Microsoft\Documents\photo_draw\images\Isaac.jpg",
+            "C:\Users\a-janiecewu\OneDrive - Microsoft\Documents\photo_draw\images\sonia.jpg",
+            "C:\Users\a-janiecewu\OneDrive - Microsoft\Documents\photo_draw\images\ teddy.jpg",
+            "/images/teddy.jpg",
             "https://i2-prod.mirror.co.uk/incoming/article6331055.ece/ALTERNATES/s615/PAY-dog.jpg",
             "https://static.standard.co.uk/s3fs-public/thumbnails/image/2018/11/20/14/samson-instagramdogs-11-20-18.jpg?width=640"
             ]; 
